@@ -1,0 +1,205 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Sigmar One', cursive;;
+}
+#outer{
+	width: 1200px;
+	height: 2000px;
+/*	background: rgba(220,220,220,1.00);*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+.clearfix{
+	clear: both;
+}
+.header{
+	width: 100%;
+	height: 130px;
+	background: linear-gradient(90deg, rgba(148,233,220,0.8270658605238971) 3%, rgba(255,126,0,1.00) 97%);
+}
+.logo{
+	width: 20%;
+	height: 80px;
+/*	background: rgba(213,213,213,1.00);*/
+	float: left;
+	text-align: center;
+	line-height: 80px;
+	margin-top: 30px;
+}
+.logo a{
+	text-decoration: none;
+	font-weight: bold;
+	color: rgba(12,12,12,1.00);
+	font-family: 'Sigmar One', cursive;
+}
+.logo a:hover{
+	color: red;
+}
+.banner{
+	width: 15%;
+	height: 80px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 80px;
+/*	background: rgb(148,233,220);*/
+/*background: linear-gradient(90deg, rgba(148,233,220,0.8270658605238971) 33%, rgba(174,203,238,1) 97%);*/
+
+}
+.banner a{
+	font-size: 48px;
+	text-decoration: none;
+	font-weight: bold;
+	color: rgba(12,12,12,1.00);
+	letter-spacing: 2px;
+	text-shadow: 2px 3px 9px rgba(206,89,55,0.59);
+}
+.banner a:hover{
+	color: red;
+}
+.menu{
+	width: calc( 100% );
+	height: 60px;
+	background: black;	
+	margin-top: 0px;
+	line-height: 40px;
+/*	border: 2px solid black;*/
+}
+.menu ul{
+	list-style: none;
+}
+.menu ul li{
+	float: right;
+	margin: 0 20px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	
+}
+.menu ul li a:hover{
+	color: red;
+}
+.main{
+	width: 100%;
+	height: 1800px;
+	background-image: url("../img/eb43426ce68861481948c9930d2f64a0.jpg"); background-size: cover
+}
+.footer{
+	width: 100%;
+	height:70px;
+	background: black;
+}
+.home{
+	width: 5%;
+	height: auto;
+	line-height: 40px;
+		
+		
+}
+.home ul{
+	list-style: none;
+}
+.home ul li a:hover{
+	color: red;
+}
+.home ul li{
+	float: right;
+	margin: 0 20px;
+}
+.home ul li a{
+	text-decoration: none;
+	color: #1f1f1f;
+	font-size: 20px;
+	
+}
+.home {
+	width: calc( 5% - 4px );
+	height: 40px;
+	background: rgba(174,174,174,1.00);
+	margin: 15 auto	;
+	line-height: 35px;
+	border: 2px solid black;
+}
+.out-sau{
+	width: 60%;
+	height: 1500px;
+	background: rgba(173,155,156,0.74);
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto
+}
+.out-cuoi{
+	width: 60%;
+	height:70px;
+	background: black;
+
+}
+.out-cuoi ul{
+	list-style: none;
+}
+.out-cuoi  ul li{
+	float: left;
+	margin: 0 20px;
+}
+.out-cuoi ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;}
+.out-cuoi ul li a:hover{
+	color: red;
+}
+.out-cuoi{
+	margin: 0 auto;
+}
+.img{
+	width: 80%;
+	height: 600px;
+/*	background: rgba(124,11,13,1.00);*/
+	
+	
+	margin: 50 auto;
+}
+.Dow{
+	width: 35px;
+	height: 35px;
+	background: #FF8600;
+}
+.Dow{
+	float: left;
+}
+.Dow{
+	font-size: 20px;
+	margin-top: 50px;
+}
+.Dow ul a:hover{
+	color: red;}
+/*
+.trangtip{
+	width: 90px;
+	height: 60;
+	background-image: url("../myTexture2danalog2-resources.assets-290.png");
+	margin: 0 auto;
+}
+*/
+.Dow{
+	border: 2px solid black
+}
+.baotrum{
+	width: 200px;
+	height: 35px;
+/*	background: #FF8600;*/
+}
+.baotrum{
+	margin: 0 auto;
+}
+.baotrum{
+	font-size: 20px;
+	margin-top: 5px;}
+.Dow ul  a:hover{
+	color: red;
+}
